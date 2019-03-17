@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_buy"
+
+            android:title="Buy" />
+
+        <item
+            android:id="@+id/nav_sell"
+
+            android:title="Sell" />
+        <item
+            android:id="@+id/nav_donate"
+
+            android:title="Donate" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="Contact us" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_people_black_24dp"
+                android:title="About us"
+                />
+
+        </menu>
+    </item>
+
+</menu>

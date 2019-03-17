@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "846199768258",
+    "firebase_url": "https://goldhand1-4bf4b.firebaseio.com",
+    "project_id": "goldhand1-4bf4b",
+    "storage_bucket": "goldhand1-4bf4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846199768258:android:8f39cefed90fb081",
+        "android_client_info": {
+          "package_name": "com.mutant.gmon.goldhand1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846199768258-ams3vonm0e8u7rq2p1kpfvbo3mptl52i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxi0KVaOeRIqUyR4omYOfixNOA_2ZREgs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

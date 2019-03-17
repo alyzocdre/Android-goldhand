@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Info">
+    <TextView
+        android:id="@+id/new_nameT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+
+        />
+
+    <EditText
+        android:id="@+id/new_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="username"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+    <TextView
+        android:id="@+id/mobile_noT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        />
+    <EditText
+        android:id="@+id/mobile_no"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="phone"
+        android:hint="mobile"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+    <TextView
+        android:id="@+id/passId1T"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        />
+    <EditText
+        android:id="@+id/passId1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:hint="password"
+        />
+    <TextView
+        android:id="@+id/passId2T"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        />
+    <EditText
+        android:id="@+id/passId2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:hint="re-type"
+        />
+    <TextView
+        android:id="@+id/dobT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        />
+    <EditText
+        android:id="@+id/dob"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="date"
+        android:hint="dob"
+        />
+
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
